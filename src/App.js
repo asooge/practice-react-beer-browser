@@ -1,5 +1,6 @@
 import React from 'react'
-import { Route, Link } from 'react-router-dom'
+import { Route } from 'react-router-dom'
+import Home from './Home.js'
 
 const Dashboard = () => (
   <div>
@@ -10,10 +11,8 @@ const Dashboard = () => (
 
 const App = () => (
   <div>
-    <nav>
-      <Link to="/dashboard">Dashboard</Link>
-    </nav>
-    <h1>Welcome to React!</h1>
+    <Route path="/" component ={Home} />
+
     <div>
       <Route path="/dashboard" component={Dashboard}/>
     </div>
