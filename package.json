@@ -1,6 +1,6 @@
 {
-  "name": "react-template",
-  "homepage": "https://github.io/<GH USER NAME>/<REPO NAME>",
+  "name": "practice-react-beer-browser",
+  "homepage": "https://github.io/asooge/practice-react-beer-browser",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
