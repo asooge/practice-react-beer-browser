@@ -7,15 +7,15 @@ const style = {
     width: '400px',
     height: '280px',
     display: 'flex',
-    padding: '12px'
+    padding: '12px',
+    overflow: 'scroll'
   },
   image: {
     height: '200px',
     margin: '12px'
   },
   name: {
-    margin: 'auto',
-    overflow: 'scroll'
+    margin: 'auto'
   },
   info: {
     padding: '12px'
@@ -35,7 +35,7 @@ const Beer = (props) => {
         <img style={style.image} src={props.img} />
         <div stye={style.info}>
           <h6 style={style.name}>{props.name}</h6>
-          <p style={style.description}>{props.description}</p>
+          <p>{props.description}</p>
         </div>
       </div>
     </div>
